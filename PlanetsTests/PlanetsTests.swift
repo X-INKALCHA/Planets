@@ -9,5 +9,8 @@ import XCTest
 @testable import Planets
 
 final class PlanetsTests: XCTestCase {
-
+    func getResponse(){
+        let request = ApiResource.planetResource
+        
+    }
 }
